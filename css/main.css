@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  text-align: center;
 }
 
 *, *::before, *::after {
@@ -8,11 +9,32 @@ html {
 
 h2 {
   font-family: 'Dosis', sans-serif;
+  margin-top: 0;
+  text-align: left;
+}
+
+p {
+  text-align: left;
 }
 
 a {
+  background-color: #785439;
+  padding: .75em;
+  border-radius: 8px;
   font-family: 'Dosis', sans-serif;
-  font-weight: bold;
+  font-weight: bolder;
   text-decoration: none;
   color: white;
+}
+
+.link-card {
+  background-color: #cabdb2;
+  border-style: solid;
+  border-color: #9a816d;
+  border-width: 3px;
+  padding: 1em;
+}
+
+.new:hover {
+  background-color: #9a816d;
 }
