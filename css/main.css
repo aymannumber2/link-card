@@ -1,0 +1,18 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h2 {
+  font-family: 'Dosis', sans-serif;
+}
+
+a {
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
