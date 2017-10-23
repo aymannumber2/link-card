@@ -16,18 +16,20 @@ html {
 h2 {
   font-family: Dosis, sans-serif;
   margin-top: 0;
-  padding-bottom: 0.5em;
+  margin-bottom: 1em;
   text-align: left;
 }
 
 p {
   text-align: left;
   line-height: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 a {
   background-color: #785439;
   padding: .75em;
+  margin-bottom: .5em;
   border-radius: 8px;
   font-family: Dosis, sans-serif;
   font-weight: bolder;
@@ -58,7 +60,9 @@ div {
 
 dl {
   text-align: left;
-  font-size: 0.9em;
+  font-size: .9em;
+  line-height: 1.5em;
+  padding-bottom: 2.4em;
 }
 
 dt {
