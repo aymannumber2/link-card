@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   background-color: #f0eee8;
   text-align: center;
+  font-family: Georgia, serif;
 }
 
 *, *::before, *::after {
@@ -9,7 +10,7 @@ html {
 }
 
 h2 {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   margin-top: 0;
   text-align: left;
 }
@@ -19,17 +20,17 @@ p {
 }
 
 a {
-  background-color: #9a816d;
+  background-color: #785439;
   padding: .75em;
   border-radius: 8px;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: bolder;
   text-decoration: none;
   color: white;
 }
 
 div {
-  margin-right: 0em;
+  margin-right: 0;
 }
 
 .link-card {
