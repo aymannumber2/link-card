@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #f0eee8;
+  text-align: center;
 }
 
 *, *::before, *::after {
@@ -27,7 +28,12 @@ a {
   color: white;
 }
 
+div {
+  margin-right: 0em;
+}
+
 .link-card {
+  max-width: 320px;
   background-color: #dcd4cd;
   border-style: solid;
   border-color: #9a816d;
@@ -43,10 +49,16 @@ a {
   background-color: #512200;
 }
 
-dd {
-  display: inline-block;
+dl {
+  text-align: left;
 }
 
 dt {
   display: inline-block;
+  width: 45%;
+}
+
+dd {
+  display: inline-block;
+  margin: 0;
 }
