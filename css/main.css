@@ -9,21 +9,27 @@ html {
   box-sizing: inherit;
 }
 
+.link-card h2 {
+  color: #512200;
+}
+
 h2 {
-  font-family: "Dosis", sans-serif;
+  font-family: Dosis, sans-serif;
   margin-top: 0;
+  padding-bottom: 0.5em;
   text-align: left;
 }
 
 p {
   text-align: left;
+  line-height: 1.5em;
 }
 
 a {
   background-color: #785439;
   padding: .75em;
   border-radius: 8px;
-  font-family: "Dosis", sans-serif;
+  font-family: Dosis, sans-serif;
   font-weight: bolder;
   text-decoration: none;
   color: white;
@@ -52,6 +58,7 @@ div {
 
 dl {
   text-align: left;
+  font-size: 0.9em;
 }
 
 dt {
