@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  text-align: center;
+  background-color: #f0eee8;
 }
 
 *, *::before, *::after {
@@ -18,7 +18,7 @@ p {
 }
 
 a {
-  background-color: #785439;
+  background-color: #9a816d;
   padding: .75em;
   border-radius: 8px;
   font-family: 'Dosis', sans-serif;
@@ -28,13 +28,25 @@ a {
 }
 
 .link-card {
-  background-color: #cabdb2;
+  background-color: #dcd4cd;
   border-style: solid;
   border-color: #9a816d;
   border-width: 3px;
   padding: 1em;
 }
 
-.new:hover {
-  background-color: #9a816d;
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+.link-card:hover a {
+  background-color: #512200;
+}
+
+dd {
+  display: inline-block;
+}
+
+dt {
+  display: inline-block;
 }
